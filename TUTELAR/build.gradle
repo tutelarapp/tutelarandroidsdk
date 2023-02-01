@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -50,4 +51,15 @@ dependencies {
 
     //Location
     implementation 'com.google.android.gms:play-services-location:21.0.1'
+}
+afterEvaluate {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                groupId = 'com.github.jitpack'
+                artifactId = 'tutelar-sdk'
+                version = '1.0.0'
+            }
+        }
+    }
 }
