@@ -26,12 +26,9 @@ deviceInfo = await _sdkplugin.getDeviceInfo(ip_address);
 ## Requirements
 ### Android
 This plugin requires several changes to be able to work on Android devices. Please make sure you follow all these steps:
-1. Use Android 6.0 (API level 23) and above.
+1. Use Android 5.0 (API level 21) and above.
 2. Use Kotlin version 1.6.10 and above:  example ext.kotlin_version = '1.6.10'
 3. Using an up-to-date Android gradle build tools version and an up-to-date gradle version accordingly.
 4. Rebuild the app, as the above changes don't update with hot reload
    These changes are needed.
 
-### iOS
-1. Compatible with apps targeting iOS 9.0 and above.
-2. Use Swift version 5.0 and above
