@@ -9,10 +9,20 @@ Tutelar are risk management experts. Our high powered tech-enabled solutions sim
 
 ## Getting Started
 
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+````
+
 Add the dependency in the app level build.gradle:
 ```
 dependencies {
-	        implementation 'com.github.tutelarapp:tutelarandroidsdk:-SNAPSHOT'
+	        implementation 'com.github.tutelarapp:tutelarandroidsdk:1.0.0'
 	}
 ```
 
