@@ -16,12 +16,6 @@ dependencies {
 	}
 ```
 
-After that you can access this Tutelarfluttersdk class like the below: (Pass the IP address in this method)
-```Dart
-deviceInfo = await _sdkplugin.getDeviceInfo(ip_address);
-
-```
-
 
 ## Requirements
 ### Android
