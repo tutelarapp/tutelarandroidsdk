@@ -56,8 +56,8 @@ afterEvaluate {
     publishing {
         publications {
             maven(MavenPublication) {
-                groupId = 'com.github.jitpack'
-                artifactId = 'tutelar-sdk'
+                groupId = 'com.github.tutelarapp'
+                artifactId = 'tutelarandroidsdk'
                 version = '1.0.0'
             }
         }
