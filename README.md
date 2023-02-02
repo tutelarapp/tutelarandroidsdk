@@ -26,6 +26,11 @@ dependencies {
 	}
 ```
 
+#### To get Device info, call like this
+```
+Tutelar.getDeviceDetails(activity)
+```
+
 
 ## Requirements
 ### Android
